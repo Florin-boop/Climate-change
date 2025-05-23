@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mexico</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--aici este un comentariu-->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="https://use.fontawesome.com/767155eaee.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+
+<body onload="getYear()">
+
+	<div class="header">
+		<div class="logo">
+			<img src="images/logo2.webp" alt="Logo" />
+		</div>
+		<div class="nav" id="myNav">
+			<a href="#" onclick="hideMenu()">Schibarile climatice</a>
+			<a href="#about" onclick="hideMenu()">Despre</a>
+			<a href="#products" onclick="hideMenu()">Cauzele principale</a>
+			<a href="pages/solutii.html" onclick="hideMenu()">Soluții</a>
+			<a href="#contacts" onclick="hideMenu()">Contacte</a>
+
+			<a href="javascript:void(0);" class="icon" onclick="responsiveMenu()"><i class="fa fa-bars"></i></a>
+		</div>
+	</div>
+	<!--slider-->
+
+	<div class="slideshow-container">
+		<div class="slide anim">
+			<div class="numbertext">1 / 4</div>
+			<img src="images/clima1.jpg">
+			<div class="text"> </div>
+		</div>
+		<div class="slide anim">
+			<div class="numbertext">2 / 4</div>
+			<img src="images/clima2.jpg">
+			<div class="text"></div>
+		</div>
+		<div class="slide anim">
+			<div class="numbertext">3 / 4</div>
+			<img src="images/clima3.jpg">
+			<div class="text"></div>
+		</div>
+		
+			<div class="text">Schimbarile climatice</div>
+		</div>
+	</div>
+
+	<!--despre produse-->
+	<hr id="about" />
+	<br>
+	<div class="about">
+		<h1></h1>
+		<i class></i>
+		<div class="main-paragraph text-paragraph">
+			<p>Schimbările climatice se referă la modificările pe termen lung ale temperaturilor și tiparelor
+				meteorologice ale Pământului. Aceste schimbări pot fi naturale, dar în ultimele decenii, activitățile
+				umane, în special arderea combustibililor fosili (cărbune, petrol, gaze naturale), au accelerat procesul
+				prin creșterea concentrației gazelor cu efect de seră în atmosferă.</p>
+			<p></p>
+		</div>
+	</div>
+	<!--produsele-->
+	<hr id="products" />
+	<br>
+	<div class="products">
+		<div class="description_prod">
+			<h1>Cauzele principale ale schimbărilor climatice:</h1>
+			<p></p>
+		</div>
+		<div class="cards_prod">
+			<div class="card">
+				<a href="pages/Riviera.html">
+					<img src="images/defrisari 1.jpg" alt="cappuccino" class="photo_prod" />
+					<h3></h3>Defrișările
+					<div class="product-text">
+						<p></p>
+					</div>
+				</a>
+			</div>
+			<div class="card">
+				<a href="pages/puerto.html">
+					<img src="images/industria.jpg" alt="latte" class="photo_prod" />
+					<h3>Industria si transporturi </h3>
+					<div class="product-text">
+						<p></p>
+					</div>
+				</a>
+			</div>
+			<div class="card">
+				<a href="pages/Canyon.html">
+					<img src="images/marea.webp" alt="espresso" class="photo_prod" />
+					<h3>Creșterea nivelului mării</h3>
+					<div class="product-text">
+						<p></p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--contactele-->
+	<hr id="contacts" />
+	<br>
+	<div class="contacts">
+		<h2>Cum ne găsiți?</h2>
+		<div class="coord">
+			<div class="blok_coord">
+				<div>
+					<span class="ico1"><i class="fa fa-map-marker"></i></span>
+				</div>
+				<div class="txt">
+					<p>Schimbarile climatice</p>
+				</div>
+			</div>
+			<div class="blok_coord">
+				<div>
+					<span class="ico"><i class="fa fa-at"></i></span>
+				</div>
+				<div class="txt">
+					<p>narkotoki.com</p>
+				</div>
+			</div>
+			<div class="blok_coord">
+				<div>
+					<span class="ico"><i class="fa fa-phone"></i></span>
+				</div>
+				<div class="txt">
+					<p>+5298731675431</p>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15021739.01132578!2d-113.27220181529623!3d23.19147808614928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84043a3b88685353%3A0xed64b4be6b099811!2sMexico!5e0!3m2!1sen!2s!4v1739533823609!5m2!1sen!2s"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</div>
+	<!--subsolul paginii-->
+	<div class="footer">
+		<h3><span class="copy">&copy;</span> Copy <span id="year"></span></h3>
+		<p>author@mail.com, 077668899</p>
+	</div>
+
+	<script src="js/script_slider.js"></script>
+</body>
+
+</html>
